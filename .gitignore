@@ -30,6 +30,7 @@ release.properties
 *~
 *.swp
 HELP.md
+apuntesclase.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
