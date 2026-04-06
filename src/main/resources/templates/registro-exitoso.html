@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido al Sistema</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 8px;">
+        <h2 style="color: #333333;">¡Cuenta Creada con Éxito!</h2>
+        <p>Hola <strong th:text="${nombre}">Usuario</strong>,</p>
+        <p>Este es un correo automático para confirmar que tu cuenta en el Sistema de Alquiler de Eventos ha sido registrada correctamente.</p>
+        <p>Tu correo registrado es: <span th:text="${email}" style="color: #0056b3;">correo@ejemplo.com</span></p>
+        <br>
+        <p>¡Gracias por usar nuestro sistema!</p>
+    </div>
+</body>
+</html>
