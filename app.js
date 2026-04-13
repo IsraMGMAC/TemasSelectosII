@@ -48,8 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Nota: el botón queda habilitado; al enviar se mostrarán alertas si faltan campos
-
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
 
