@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // 3. Función para cambiar el color de fondo al azar
     btnColor.addEventListener("click", function() {
-        // Generar colores RGB al azar entre 150 y 255 (para mantener tonos claros/pastel y que el texto oscuro se lea bien)
+        // Generar colores RGB al azar
         const r = Math.floor(Math.random() * 105) + 150;
         const g = Math.floor(Math.random() * 105) + 150;
         const b = Math.floor(Math.random() * 105) + 150;
@@ -22,9 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Aplicar el color al body
         document.body.style.backgroundColor = colorAleatorio;
-        
-        // Opcional: Mostrar en consola el color generado
-        console.log("Color de fondo cambiado a: " + colorAleatorio);
     });
 
 });
