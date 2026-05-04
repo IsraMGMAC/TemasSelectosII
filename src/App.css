@@ -1,0 +1,98 @@
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Contenedor principal */
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input + botón */
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+/* Botón agregar */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada tarea */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+/* Texto de tarea */
+.task-text {
+  cursor: pointer;
+}
+
+/* Tarea completada */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Botón eliminar */
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
